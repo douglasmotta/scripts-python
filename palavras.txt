@@ -1,0 +1,6 @@
+barriga
+prato
+garfo
+laranja
+melancia
+exemplo
