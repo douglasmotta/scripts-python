@@ -56,10 +56,10 @@ def jogar():
     # ======= loop =======
         
     # avaliar se o usuário ganhou ou não o jogo
-        if venceu:
-            print("Parabéns, você venceu!")
-        else:
-            print(f"Que pena, você perdeu. A palavra era -> {palavra_secreta}")
+    if venceu:
+        print("Parabéns, você venceu!")
+    else:
+        print(f"Que pena, você perdeu. A palavra era -> {palavra_secreta}")
 
 
 if __name__ == "__main__":
