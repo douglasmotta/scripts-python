@@ -1,7 +1,7 @@
 import random
 
 def pegar_palavra_secreta():
-    with open("palavras.txt", "r", encoding="utf-8") as arquivo:
+    with open("jogo-da-forca/palavras.txt", "r", encoding="utf-8") as arquivo:
         palavras_potencial = [linha.strip() for linha in arquivo]
 
     palavra_secreta = random.choice(palavras_potencial)
